@@ -1,0 +1,164 @@
+/* CONTAINERS */
+html{
+    font-family: 'Smythe', cursive;
+    font-weight: 400;
+}
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+header{
+    background-image: url("images/hamburguesa.jpg");
+    height: 167px;
+    background-size: 100%;
+    background-position: center;
+    padding: 10px 0px 0px 30px;
+}
+.container{
+    margin: 0px auto;
+    width: 600px;
+    box-sizing: border-box;
+}
+.descriptive-container{
+    /* border: 1px green solid; */
+    flex-grow: 1;
+}
+#items{
+    margin: 30px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8B8B8B;
+}
+#checkout-section{
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 10px;
+}
+.order-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+}
+.total-section{
+    justify-content: space-between;
+}
+#form-data{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 480px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 20px;
+    border: 1px solid black;
+}
+#modal{
+    display: none;
+}
+input{
+    margin: 0px 30px;
+    padding: 10px;
+    border: 0.50 solid grey;
+}
+.thanks-container{
+    font-size: 20px;
+    color: #065F46;
+    padding: 15px 40px;
+    background-color: #ECFDF5;
+    border: none;
+    border-radius: 3px;
+}
+/* TEXT */
+.name-header{    
+    color: whitesmoke;
+    font-size: 39px;
+    margin-bottom: 0px;
+}
+.low-header{
+    color: whitesmoke;
+    font-size: 22px;
+    margin-top: 0px;
+}
+h6{
+    font-size: 28px;   
+}
+.item-title{
+    margin: 30px 0px;
+}
+.item-description{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #8B8B8B;
+}
+.item-price{
+    font-size: 20px;
+    margin: 0px;
+}
+.order-name{
+    margin: 0px;
+}
+.order-title{
+    margin: 0px 0px 40px 0px;
+}
+legend{
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* BUTTONS */
+.add-btn{
+    border-radius: 50%;
+    font-size: 32px;
+    color: #3b3b3b;
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid #8B8B8B;
+}
+#remove-btn{
+    background-color: whitesmoke;
+    color: #BBBBBB;
+    border: none;
+    flex-grow: 1;
+    text-align: left;
+}
+.pay-btn, #order-btn{
+    background-color: #16DB99;
+    border: 1px solid green;
+    border-radius: 3px;
+    align-items: center;
+    margin: 20px 30px;
+    padding: 12px;
+    color: white;  
+    font-size: 20px;
+}
+#order-btn{
+    border: none;
+    font-size: 15px;
+    padding: 12px 200px;
+}
+
+/* IMAGES */
+.item-graphic{
+    height: 80px;
+    width: 80px;
+}
+/* ADDITIONAL ITEMS */
+.separator{
+    border-bottom: 2px solid black;
+}
+
+

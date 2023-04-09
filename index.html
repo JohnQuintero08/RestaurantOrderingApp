@@ -1,0 +1,60 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="container"> 
+            <div>
+                <h1 class="name-header">Jimmy's Diner </h1>
+                <h3 class="low-header">The best burgers and pizzas in town</h3>
+            </div>
+        </header>
+        
+        <main class="container">
+            <div id="items">
+
+            </div>
+        </main>
+        <!-- PRICE SECTION -->
+        <div id="checkout-section" class="container">
+            
+        </div>
+        <!-- CLOSE PRICE SECTION -->
+        <!-- CARD DETAILS -->
+        <div id="modal">
+        <form id="form-data">
+            <legend>Enter Card Details</legend>
+            <input
+                type = "text"
+                id = "client-name"
+                name = "client-name"
+                placeholder = "Enter your name"
+                required
+            >
+            <input
+                type = "text"
+                id = "client-card-number"
+                name = "client-card-number"
+                placeholder = "Enter card number"
+                required
+            >
+            <input
+                type = "text"
+                id = "client-cvv"
+                name = "client-cvv"
+                placeholder = "Enter CVV"
+                required
+            >
+            <button type="submit" class="pay-btn" id="pay-btn">Pay</button>
+        </form>
+        </div>
+        <!-- CLOSE CARD DETAILS -->
+        
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
